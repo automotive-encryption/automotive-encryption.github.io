@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XYZ - Reverse Engineer</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+-->
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">		
+  <a class="navbar-brand" href="#" style="margin-right: 25px">
+    <img src="img/logo.png" width="100" height="30" class="d-inline-block align-top" alt="">
+  </a>
+    
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
+  <div class="navbar-collapse collapse" id="menu">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link active" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#our-services">Our Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Navbar End -->
+  
+
+<!-- About Section -->
+<div id="about">
+  <br><br><br>
+  <div class="container col-md-10">
+    <div class="row">
+      <div class="about-text text-center col-md-5">
+        <h2>About</h2>
+        <hr>
+        <h4>Seed Key Security or Seed Key Algorithm</h4>
+        <p class="text-justify">In the Security Access based on seed-key the client request a seed from the ECU and generate a key using an algorithm.Then the ECU checks if the key is correct. This allows the client to access privileged information from ECU. </p>
+      </div>
+    
+
+      <div class="about-img col-md-5">
+        <img src="img/about.jpg" class="img-fluid rounded" alt="Sample Code">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Our Services -->
+<div id="our-services">
+  <br><br><br><br>
+  <div class="container col-md-11 center">
+    
+       
+    <div class="row">
+      <div class="our-services-left col-md-6">
+        <div class="section-title text-center center">
+          <h2>Our Services</h2>
+          <hr>
+        </div>
+
+		<p class="text-justify center">Our company offer a specialized automotive reverse engineering service, focusing on seed key algorithms.</p>
+        <p class="text-justify center">We have already analyzed and implemented hundreds of seed-key algorithms to serve the top car brands in the world, including: <br> VW, Toyota, Ford, General Motors, Honda Motors, FCA Group, Nissan, and more.</p>
+        <p class="text-justify center">Estimated service time and costs will be defined after the initial analysis.</p>
+      </div>  
+    
+      
+      <div class="our-services-right col-md-5" style="margin-left: 30px;">
+        <div class="section-title text-center center">
+          <h2>What's New</h2>
+          <hr>
+        </div>
+
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+              <div class="card text-white bg-secondary mb-3" style="min-height: 17em">
+                <div class="card-header"><center><h5 class="card-title">PSA BSI</h5></center></div>
+                <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; margin-bottom: 50px;">
+                  <p class="card-text">Seed Key algortithm and bootloader. <br> Needed to read EEPROM/PIN CODE by OBD (K-LINE and CAN).</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="card text-white bg-secondary mb-3" style="min-height: 17em">
+                <div class="card-header"><center><h5 class="card-title">RENAULT UCH</h5></center></div>
+                <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; margin-bottom: 50px;">
+                  <p class="card-text">Seed Key algorithm and bootloader. <br> PIN CODE uncrypt to key program by OBD.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="card text-white bg-secondary mb-3" style="min-height: 17em">
+                <div class="card-header"><center><h5 class="card-title">GM BCM</h5></center></div>
+                <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; margin-bottom: 50px;">
+                  <p class="card-text">Seed Key algorithm and bootloader. <br> Needed to read EEPROM/PIN CODE by OBD.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+          <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          
+          <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>  
+    </div>
+
+    <div class="row col-md-12">
+      <br><br><br><br>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div id="contact" class="text
+  <div class="container">   
+    <div class="row d-flex justify-content-center">  
+      <div class="col-md-6 col-md-offset-2">
+        <center>
+        <h2>Contact us</h2>
+        <hr>
+        <!-- <h3>Leave me a message</h3> -->
+        <font color="white">
+          <p>Please, detail you need.</p>
+          <!-- <p>E.g.: "Seed key algorithm level 1 for ID 0x07E0 of the ME17.5.20”</p> -->
+        </font>  
+        </center>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>        
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <div class="form-group">
+            <font color="white">
+              <input type="file" class="form-control-file" id="anexo1">
+              <spam style="text-align: left">
+                Attachment - (Max File Size 2 MB)
+              </spam>
+            </font>    
+          </div>        
+          
+          <div id="success"></div>
+          <button type="submit" class="btn btn-default">Send Message</button>
+        </form>
+        
+      </div>
+    </div>  
+  </div>
+</div>
+
+<div id="footer">
+  <div class="container text-center">
+    <p>Copyright &copy; 2022</p>
+  </div>
+</div>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+  <script type="text/javascript" src="js/contact_me.js"></script> 
+
+  
+
+<!-- 
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>	
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+  <script type="text/javascript" src="js/jquery.isotope.js"></script> 
+  <script type="text/javascript" src="js/jquery.counterup.js"></script> 
+  <script type="text/javascript" src="js/waypoints.js"></script> 
+  
+
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>   
+  <script type="text/javascript" src="js/bootstrap.js"></script> 
+     
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/easypiechart.js"></script> 
+-->  
+
+
+</body>
+</html>
