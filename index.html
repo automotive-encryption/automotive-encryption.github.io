@@ -1,250 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>XYZ - Reverse Engineer</title>
-<meta name="description" content="">
-<meta name="author" content="">
 
-<!-- Favicons
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
--->
+  <head>
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-<!-- Stylesheet -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <title>XYZ REVERSE ENGINEERING TEAM</title>
 
-</head>
-<body>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-<!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">		
-  <a class="navbar-brand" href="#" style="margin-right: 25px">
-    <img src="img/logo.png" width="100" height="30" class="d-inline-block align-top" alt="">
-  </a>
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/xyzrev.css">
+
+    </head>
     
-  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <body>
     
-  <div class="navbar-collapse collapse" id="menu">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link active" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#our-services">Our Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<!-- Navbar End -->
-  
-
-<!-- About Section -->
-<div id="about">
-  <br><br><br>
-  <div class="container col-md-10">
-    <div class="row">
-      <div class="about-text text-center col-md-5">
-        <h2>About</h2>
-        <hr>
-        <h4>Seed Key Security or Seed Key Algorithm</h4>
-        <p class="text-justify">In the Security Access based on seed-key the client request a seed from the ECU and generate a key using an algorithm.Then the ECU checks if the key is correct. This allows the client to access privileged information from ECU. </p>
-      </div>
-    
-
-      <div class="about-img col-md-5">
-        <img src="img/about.jpg" class="img-fluid rounded" alt="Sample Code">
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-<!-- Our Services -->
-<div id="our-services">
-  <br><br><br><br>
-  <div class="container col-md-11 center">
+    <!-- ***** Preloader End ***** -->
     
-       
-    <div class="row">
-      <div class="our-services-left col-md-6">
-        <div class="section-title text-center center">
-          <h2>Our Services</h2>
-          <hr>
-        </div>
-
-		<p class="text-justify center">Our company offer a specialized automotive reverse engineering service, focusing on seed key algorithms.</p>
-        <p class="text-justify center">We have already analyzed and implemented hundreds of seed-key algorithms to serve the top car brands in the world, including: <br> VW, Toyota, Ford, General Motors, Honda Motors, FCA Group, Nissan, and more.</p>
-        <p class="text-justify center">Estimated service time and costs will be defined after the initial analysis.</p>
-      </div>  
     
-      
-      <div class="our-services-right col-md-5" style="margin-left: 30px;">
-        <div class="section-title text-center center">
-          <h2>What's New</h2>
-          <hr>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">XYZ<em> AUTOMOTIVE REVERSE ENGINEERING TEAM</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">Our Services</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">About our team</a></li>
+                            <li class="scroll-to-section"><a href="#schedule">Our Clients</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
+                           <!-- <li class="main-button"><a href="#">Sign Up</a></li> -->
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
         </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/images/back.mp4" type="video/mp4" />
+        </video>
 
-              <div class="card text-white bg-secondary mb-3" style="min-height: 17em">
-                <div class="card-header"><center><h5 class="card-title">PSA BSI</h5></center></div>
-                <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; margin-bottom: 50px;">
-                  <p class="card-text">Seed Key algortithm and bootloader. <br> Needed to read EEPROM/PIN CODE by OBD (K-LINE and CAN).</p>
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>Get access to dozens of vehicles from most well-known automakers, for Diagnostic, ECU Programming, Key Programming(Immo Keys) and bootloader.</h6>
+                <h2></h2>
+                <h6>We are experts in <em>Automotive Security Access Services</em></h6>
+                <div class="main-button scroll-to-section">
+                    <a href="#features">Contact us</a>
                 </div>
-              </div>
-
             </div>
-            <div class="carousel-item">
-              <div class="card text-white bg-secondary mb-3" style="min-height: 17em">
-                <div class="card-header"><center><h5 class="card-title">RENAULT UCH</h5></center></div>
-                <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; margin-bottom: 50px;">
-                  <p class="card-text">Seed Key algorithm and bootloader. <br> PIN CODE uncrypt to key program by OBD.</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="carousel-item">
-              <div class="card text-white bg-secondary mb-3" style="min-height: 17em">
-                <div class="card-header"><center><h5 class="card-title">GM BCM</h5></center></div>
-                <div class="card-body" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; margin-bottom: 50px;">
-                  <p class="card-text">Seed Key algorithm and bootloader. <br> Needed to read EEPROM/PIN CODE by OBD.</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          
-          <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          
-          <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
         </div>
-      </div>  
     </div>
+    <!-- ***** Main Banner Area End ***** -->
 
-    <div class="row col-md-12">
-      <br><br><br><br>
-    </div>
-  </div>
-</div>
-
-
-<!-- Contact Section -->
-<div id="contact" class="text
-  <div class="container">   
-    <div class="row d-flex justify-content-center">  
-      <div class="col-md-6 col-md-offset-2">
-        <center>
-        <h2>Contact us</h2>
-        <hr>
-        <!-- <h3>Leave me a message</h3> -->
-        <font color="white">
-          <p>Please, detail you need.</p>
-          <!-- <p>E.g.: "Seed key algorithm level 1 for ID 0x07E0 of the ME17.5.20”</p> -->
-        </font>  
-        </center>
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
+    <!-- ***** Features Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Discover our <em>services</em></h2>
+                        <img src="assets/images/line-dec.png" alt="waves">
+                        <p>Our team of reverse engineers focus on research and development to apply advanced and automated hardware hacking techniques to automotive plants, using techniques such as plant emulation, and providing our customers with cutting-edge technology along with implementation assistance in any product already available on the market.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="First One">
+                            </div>
+                            <div class="right-content">
+                                <h4>Serviço 1</h4>
+                                <p>DESCRIÇÃO DO SERVIÇO 1 ---------------------</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="second one">
+                            </div>
+                            <div class="right-content">
+                                <h4>Serviço 2</h4>
+                                <p>DESCRIÇÃO DO SERVIÇO 2 ---------------------</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="third gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Serviço 3</h4>
+                                <p>DESCRIÇÃO DO SERVIÇO 3 ---------------------</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
+                            </div>
+                            <div class="right-content">
+                                <h4>Serviço 4</h4>
+                                <p>DESCRIÇÃO DO SERVIÇO 4 ---------------------</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="training fifth">
+                            </div>
+                            <div class="right-content">
+                                <h4>Serviço 5</h4>
+                                <p>DESCRIÇÃO DO SERVIÇO 5 ---------------------</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Serviço 6</h4>
+                                <p>DESCRIÇÃO DO SERVIÇO 6 ---------------------</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>        
-          </div>
+        </div>
+    </section>
+    <!-- ***** Features Item End ***** -->
 
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-
-          <div class="form-group">
-            <font color="white">
-              <input type="file" class="form-control-file" id="anexo1">
-              <spam style="text-align: left">
-                Attachment - (Max File Size 2 MB)
-              </spam>
-            </font>    
-          </div>        
-          
-          <div id="success"></div>
-          <button type="submit" class="btn btn-default">Send Message</button>
-        </form>
-        
-      </div>
-    </div>  
-  </div>
-</div>
-
-<div id="footer">
-  <div class="container text-center">
-    <p>Copyright &copy; 2022</p>
-  </div>
-</div>
-
-  <!-- JavaScript (Opcional) -->
-  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-  <script type="text/javascript" src="js/contact_me.js"></script> 
-
-  
-
-<!-- 
-  <script type="text/javascript" src="js/SmoothScroll.js"></script>	
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Don't lose <em>market</em> to your <em>competitors</em></h2>
+                        <p>Unlike our competitors who provide terrible support services and sales of automaker security algorithms, we will receive your proposal and together with someone from your team implement the solution together with one of our specialists.</p>
+                        <div class="main-button scroll-to-section">
+                            <a href="#our-classes">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
 
 
-  <script type="text/javascript" src="js/main.js"></script>
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Meet some of our <em>clients</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>These are some of our most active clients and partnerships that can provide quality to our services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/logo.png" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>AUTEL TECH</span>
+                            <h4>Kim Jong Un</h4>
+                            <p>We use XYZ Reverse Engineering to obtain algorithms for our benz, volvo and scania mercades.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/xtool.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>XTOOL</span>
+                            <h4>IDK Nome</h4>
+                            <p>We have purchased and successfully partnered with XYZ Reverse</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/obdstar.png" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>OBDSTAR</span>
+                            <h4>CEO Nome</h4>
+                            <p>Adam couldn't give us interesting algorithms so we went to XYZ Reverse.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div id="map">
+                      <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2022 XYZ Reverse Engineering </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-  <script type="text/javascript" src="js/jquery.isotope.js"></script> 
-  <script type="text/javascript" src="js/jquery.counterup.js"></script> 
-  <script type="text/javascript" src="js/waypoints.js"></script> 
-  
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
 
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>   
-  <script type="text/javascript" src="js/bootstrap.js"></script> 
-     
-  <script type="text/javascript" src="js/modernizr.custom.js"></script>
-  <script type="text/javascript" src="js/easypiechart.js"></script> 
--->  
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
 
-</body>
+  </body>
 </html>
