@@ -1,85 +1,102 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultoria e Treinamentos Automotivos</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Cabeçalho -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
 
-    <!-- Página Inicial -->
-    <section id="home">
-        <h1>Bem-vindo à Consultoria e Treinamentos Automotivos</h1>
-        <p>Excelência em soluções e capacitação para o setor automotivo.</p>
-    </section>
+/* Cabeçalho */
+header {
+    background: #0073e6;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-    <!-- Clientes -->
-    <section id="clients">
-        <h2>Clientes</h2>
-        <p>Empresas que confiam em nossos serviços:</p>
-        <ul>
-            <li>Cliente 1</li>
-            <li>Cliente 2</li>
-            <li>Cliente 3</li>
-        </ul>
-    </section>
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    <!-- Serviços -->
-    <section id="services">
-        <h2>Serviços</h2>
-        <p>Confira nossas áreas de atuação:</p>
-        <ul>
-            <li>Consultoria técnica em sistemas automotivos</li>
-            <li>Treinamentos especializados</li>
-            <li>Diagnóstico e solução de problemas</li>
-        </ul>
-    </section>
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-    <!-- Sobre Nós -->
-    <section id="about">
-        <h2>Sobre Nós</h2>
-        <p>Com anos de experiência, somos especialistas em tecnologia automotiva.</p>
-    </section>
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    <!-- Blog -->
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Leia nossos artigos e fique por dentro das novidades do setor automotivo.</p>
-    </section>
+header nav ul li a:hover {
+    text-decoration: underline;
+}
 
-    <!-- Contato -->
-    <section id="contact">
-        <h2>Contato</h2>
-        <form action="#" method="post">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+/* Seções */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+section h2 {
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
 
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
+/* Lista de Clientes e Serviços */
+section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
 
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 Consultoria e Treinamentos Automotivos. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005bb5;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
